@@ -45,7 +45,7 @@ df_kmeans['cluster']=kmeans.labels_
 plt.figure(figsize=(8,5))
 sns.scatterplot(x='sepal_length',y='sepal_width',hue = 'cluster', data=df_kmeans,palette='bright')
 
-plt.title('KMeans Clustring')
+plt.title('K-Means Clustring')
 plt.show()
 
 
